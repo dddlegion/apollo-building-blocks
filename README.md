@@ -1,2 +1,2 @@
-# apollo-building-blocks
-Provides DDD building blocks
+# Apollo: Building blocks
+Provides DDD building blocks for Apollo services.
