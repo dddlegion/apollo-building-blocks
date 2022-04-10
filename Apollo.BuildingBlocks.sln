@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.BuildingBlocks.Domain", "Domain\Apollo.BuildingBlocks.Domain.csproj", "{3DD2C341-D242-4C3D-88FA-B9CEA3CC5E1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{A6CA3F1B-D761-4474-8993-DF1FE96EEC4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.BuildingBlocks.Application", "Application\Apollo.BuildingBlocks.Application.csproj", "{A6CA3F1B-D761-4474-8993-DF1FE96EEC4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
