@@ -1,6 +1,6 @@
-namespace Apollo.BuildingBlocks.Domain;
-
 using MediatR;
+
+namespace Apollo.BuildingBlocks.Domain;
 
 public interface IDomainEvent: INotification
 {
