@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.BuildingBlocks", "Apollo.BuildingBlocks\Apollo.BuildingBlocks.csproj", "{4674EE85-3DA0-4BE1-A927-69CE586951E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.BuildingBlocks.Domain", "Domain\Apollo.BuildingBlocks.Domain.csproj", "{3DD2C341-D242-4C3D-88FA-B9CEA3CC5E1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apollo.BuildingBlocks.Application", "Application\Apollo.BuildingBlocks.Application.csproj", "{A6CA3F1B-D761-4474-8993-DF1FE96EEC4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +10,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4674EE85-3DA0-4BE1-A927-69CE586951E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4674EE85-3DA0-4BE1-A927-69CE586951E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4674EE85-3DA0-4BE1-A927-69CE586951E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4674EE85-3DA0-4BE1-A927-69CE586951E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD2C341-D242-4C3D-88FA-B9CEA3CC5E1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD2C341-D242-4C3D-88FA-B9CEA3CC5E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD2C341-D242-4C3D-88FA-B9CEA3CC5E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD2C341-D242-4C3D-88FA-B9CEA3CC5E1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6CA3F1B-D761-4474-8993-DF1FE96EEC4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6CA3F1B-D761-4474-8993-DF1FE96EEC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6CA3F1B-D761-4474-8993-DF1FE96EEC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6CA3F1B-D761-4474-8993-DF1FE96EEC4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal
